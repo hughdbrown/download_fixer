@@ -6,7 +6,11 @@ these extra files eat up lots of space for no gains.
 the file in a new directory and all directory-instances then point at the single copy.
 
 # Installation
-Run `python setup.py scripts` from a command prompt.
+Run
+
+    $ python setup.py install_scripts
+
+from a command prompt. The installation will make a script file named `download-fixer` that you can run from the command line. On linux and OSX, the script will be placed in `/usr/local/bin`. I can't vouch for what happens in Windows.
 
 # Operation
 In a terminal, cd to the root directory of a collection of downloaded resources (video files,
