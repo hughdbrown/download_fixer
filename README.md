@@ -1,6 +1,6 @@
 # Overview
 Courses downloaded from the internet commonly have identical files repeated in directories.
-these extra files eat up lots of space for no gains.
+These extra files eat up lots of space for no gains.
 
 `download-fixer` modifies directories of identical files so that there is a single copy of
 the file in a new directory and all directory-instances then point at the single copy.
